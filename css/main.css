@@ -1,0 +1,127 @@
+body {
+    /* display: flex; */
+    /* background-color: rgb(253 119 34); */
+    background-color: green;
+}
+header {
+    display: flex;
+    justify-content: center;
+    font: helvetica;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(149 64 18 1);
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font: helvetica;
+    font-size: 40px;
+    /* padding: 10px 10px; */
+}
+.slotmac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.start {
+    padding: 20px 20px;
+    font: bold;
+    font-size: 20px;
+    color: orange;
+    background-color: rgb(112 31 34);
+    border: 10px solid red;
+    border-radius: 15px;
+    /* transition-duration: 0.4s; */
+}
+.earns {
+    float: right;
+    font: bold;
+    font-size: 20px;
+    color: orange;
+    background-color: rgb(112 31 34);
+    border-radius: 10%;
+    border: 10px solid red;
+    padding: 20px;
+    margin: 0px;
+}
+.insert {
+    padding: 20px 20px;
+    border: 10px solid red;
+    border-radius: 10px;
+    background-color: rgb(112 31 34);
+    font: bolder;
+    color: orange;
+    font-size: 20px;
+}
+.maxbet {
+    float: right;
+    padding: 20px 20px;
+    /* margin: 0px 60px; */
+    border: 10px solid red;
+    border-radius: 10px;
+    background-color: rgb(112 31 34);
+    font: bolder;
+    color: orange;
+    font-size: 20px;
+}
+.earn {
+    float: right;
+    background-color: rgb(112 31 34);
+    border: 10px solid red;
+    color: orange;
+    font-size: 20px;
+}
+input {
+    margin: 10px;
+    padding: 10px 10px;
+    /* background-color: orange; */
+    /* float: right; */
+}
+.bet {
+    float: right;
+    margin: 0px 50px;
+    display: block;
+    background-color: rgb(112 31 34);
+    border: 10px solid red;
+    color: orange;
+    font-size: 20px;
+}
+/* h2 {
+    padding: 0px 100px;
+} */
+.coin {
+    background-color: rgb(112 31 34);
+    border: 10px solid red;
+    color: orange;
+    font-size: 20px;
+}
+td img {
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    /* padding: 0px 0px; */
+    /* border-radius: 50%; */
+    pointer-events: none;
+}
+
+tr td:nth-child(1) {
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+  }
+tr td:nth-child(3) {
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+  }
+tr td:nth-child(5) {
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+  }
+tr:nth-child(1) td {
+    border-top: 10px solid red;
+    /* border-bottom: 10px solid red; */
+  }
+tr:nth-child(3) td {
+    border-bottom: 10px solid red;
+  }
