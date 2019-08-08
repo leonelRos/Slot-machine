@@ -125,3 +125,7 @@ tr:nth-child(1) td {
 tr:nth-child(3) td {
     border-bottom: 10px solid red;
   }
+  img {
+      height: 100px;
+      width: 100px;
+  }
