@@ -20,26 +20,37 @@ const slotLookup = {
         value: 'b'
     },
 }
+const fruits = ["cherry", "watermelon", "star", "orange", "banana"]
 
+const box1 = document.querySelector('#img0 img')
+const allBoxes = document.querySelectorAll("td")
 let score, spin, earning
 
 // const getImg = {
-//    c: document.getElementById('img0'),
-//    w: document.getElementById('img1'),
-//    s: document.getElementById('img2'),
-//    o: document.getElementById('img3'),
-//    b: document.getElementById('img4') 
+//    c: document.getElementById('img1'),
+// //    w: document.getElementById('img1'),
+// //    s: document.getElementById('img2'),
+// //    o: document.getElementById('img3'),
+// //    b: document.getElementById('img4') 
 // };
 
-const resultImg = {
-    c: {
-        showPic: document.getElementById('img0'),
-        flexPic: document.querySelector('#img0 img')
-    }
-}
+// const resultImg = {
+//     c: {
+//         showPic: document.getElementById('img1'),
+//         flexPic: document.querySelector('#img1 img')
+//     }
+// }
 
-document.querySelector('button .start').addEventListener('click', playSlot)
-return resultImg = playSlot;
+// document.getElementsByClassName('.start').addEventListener('click')
+document.querySelector('.start').addEventListener('click', flipPic)
+function flipPic () {
+    allBoxes.forEach(function(box) {
+        let randomFruit = slotLookup[fruits[Math.floor(Math.random()*5)]]
+        box.firstChild.src = randomFruit.imgUrl
+        box.value = randomFruit.value
+    })
+
+};
 
 
 
@@ -57,9 +68,9 @@ return resultImg = playSlot;
 
 // render()
 
-// document.getElementById('slotmac').addEventListener('click', clickDiv);
-// function clickDiv(e){
-//     console.log(e.target.value, "<<<<value")
-//     console.log(e.target.innerText, "<<<<id")
+document.getElementById('slotmac').addEventListener('click', clickDiv);
+function clickDiv(e){
+    console.log(e.target.value, "value")
+    console.log(e.target.id, "id")
     
-// }
+}
