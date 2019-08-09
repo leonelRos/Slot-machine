@@ -9,7 +9,7 @@ Making the Slot Machine was definitely a big challenge. The complexity of its lo
 ### The Game
 
  Slot Machine
-    ![alt text](http:slot_img/slot.png)
+    ![game on](https://github.com/leonelRos/Slot-machine/blob/master/slot_img/slot.png)
     
     
     
