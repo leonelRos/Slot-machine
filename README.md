@@ -33,6 +33,8 @@ Making the Slot Machine was definitely a big challenge. The complexity of its lo
 
 ### Future development
 
+![game](https://github.com/leonelRos/Slot-machine/blob/master/newslot.png)
+
 A user should be able to make a bet, double their bet or even go ALL IN. Also the slot should be able to display a chart with the winning combinations and how much it pays off. Lastly, the Slot Machine will have the very well known sound. the one we hear everytime we step in into a casino.
 
 ### GO PLAY THE SLOT MACHINE
