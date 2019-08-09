@@ -1,6 +1,6 @@
 body {
-    /* display: flex; */
-    /* background-color: rgb(253 119 34); */
+    background-color: rgb(253 119 34);
+    justify-content: center;
     background-color: green;
 }
 header {
@@ -17,13 +17,13 @@ h1 {
     color: white;
     font: helvetica;
     font-size: 40px;
-    /* padding: 10px 10px; */
 }
 .slotmac {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    width: 50%;
 }
 .start {
     padding: 20px 20px;
@@ -33,7 +33,7 @@ h1 {
     background-color: rgb(112 31 34);
     border: 10px solid red;
     border-radius: 15px;
-    /* transition-duration: 0.4s; */
+   
 }
 .earns {
     float: right;
@@ -66,45 +66,26 @@ h1 {
     color: orange;
     font-size: 20px;
 }
-.earn {
-    float: right;
-    background-color: rgb(112 31 34);
-    border: 10px solid red;
-    color: orange;
-    font-size: 20px;
-}
+
 input {
     margin: 10px;
     padding: 10px 10px;
-    /* background-color: orange; */
-    /* float: right; */
+    
 }
-.bet {
-    float: right;
-    margin: 0px 50px;
-    display: block;
-    background-color: rgb(112 31 34);
-    border: 10px solid red;
-    color: orange;
-    font-size: 20px;
-}
-/* h2 {
-    padding: 0px 100px;
-} */
+
 .coin {
     background-color: rgb(112 31 34);
     border: 10px solid red;
     color: orange;
     font-size: 20px;
 }
-td img {
+ td img {
     margin: 0 auto;
     height: 100px;
     width: 100px;
-    /* padding: 0px 0px; */
-    /* border-radius: 50%; */
+    
     pointer-events: none;
-}
+ } 
 
 tr td:nth-child(1) {
     border-left: 10px solid red;
@@ -125,7 +106,14 @@ tr:nth-child(1) td {
 tr:nth-child(3) td {
     border-bottom: 10px solid red;
   }
-  img {
-      height: 100px;
+img {
+      height: 200px;
       width: 100px;
+      
   }
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

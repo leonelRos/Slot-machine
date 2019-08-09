@@ -1,3 +1,4 @@
+//create constants
 const slotLookup = {
     cherry: {
         imgUrl: 'slot_img/cherry.jpg',
@@ -22,6 +23,7 @@ const slotLookup = {
 }
 const fruits = ["cherry", "watermelon", "star", "orange", "banana"]
 
+//event listeners
 const box1 = document.querySelector('#img0 img')
 const allBoxes = document.querySelectorAll("td")
 const msg = document.getElementById('msg')
@@ -36,7 +38,7 @@ insert.addEventListener('click', function(e){
     currentVal += 5
     coin.value = currentVal
 })
-
+//functions
 function flipPic() {
     if(parseInt(coin.value) > 0){
         coin.value = parseInt(coin.value) - 5
@@ -47,7 +49,7 @@ function flipPic() {
         })
         render()
     } else {
-        msg.innerHTML = "insert money first to play!"
+        msg.innerHTML = "insert money first to play💰💰💵💵!"
     }
 };
 
@@ -61,6 +63,7 @@ let newColumn7 = document.getElementById('img6');
 let newColumn8 = document.getElementById('img7');
 let newColumn9 = document.getElementById('img8');
 
+//render function
 function render() {
     console.log(newColumn1.innerHTML, newColumn2, newColumn3)
     if (newColumn1.innerHTML === newColumn2.innerHTML && newColumn2.innerHTML === newColumn3.innerHTML) {
