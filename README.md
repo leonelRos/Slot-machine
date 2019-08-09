@@ -1,11 +1,11 @@
 # Slot-machine
 
 
-###Good Morning everyone
+### Good Morning everyone
 
 Making the Slot Machine was definetly a big challenge. The complexity of its logic and other features, made me question myself but with the help of the instructors, the TA's and lots of lots of coffee, I was able to finish the game so I can share with everyone.
 
-###The Game
+### The Game
  Slot Machine
     ![alt text](http:slot_img/slot.png)
     
@@ -18,20 +18,20 @@ Making the Slot Machine was definetly a big challenge. The complexity of its log
 
 
 
-###Game Planning
+### Game Planning
 
 
 
 
 
-###Future development
+### Future development
 
 A user should be able to make a bet, double their bet or even go ALL IN. Also the slot should be able to display a chart with the winning combinations and how much it pays off. Lastly, the Slot Machine will have the very well known sound. the one we hear everytime we step in into a casino.
 
-###GO PLAY THE SLOT MACHINE
+### GO PLAY THE SLOT MACHINE
 
 
-###Technology used for this project
+### Technology used for this project
 *HTML
 *CSS
 *Javascript
