@@ -33,7 +33,11 @@ A user should be able to make a bet, double their bet or even go ALL IN. Also th
 
 ### Technology used for this project
 *HTML
+
 *CSS
+
 *Javascript
+
 *JQuery
+
 *Google
