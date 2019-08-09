@@ -4,7 +4,7 @@
 ### Good Morning everyone
 
 
-Making the Slot Machine was definetly a big challenge. The complexity of its logic and other features, made me question myself but with the help of the instructors, the TA's and lots of lots of coffee, I was able to finish the game so I can share with everyone.
+Making the Slot Machine was definitely a big challenge. The complexity of its logic and other features, made me question myself but with the help of the instructors, the TA's and lots of lots of coffee, I was able to finish the game so I can share with everyone.
 
 ### The Game
 
