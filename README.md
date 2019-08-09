@@ -20,9 +20,14 @@ Making the Slot Machine was definitely a big challenge. The complexity of its lo
 
 
 
-### Game Planning
+### Game instructions
+*Insert $5 first to start
 
+*Press "start game" to initiate the game
 
+*Shuffle the images and hope you get three similar images in a row.
+
+*Cash out and go Home.
 
 
 
