@@ -76,11 +76,9 @@ function render() {
     }
 }
 
-
 document.getElementById('slotmac').addEventListener('click', clickDiv);
 
 function clickDiv(e) {
     console.log(e.target.value, "value")
     console.log(e.target.id, "id")
-
 }
