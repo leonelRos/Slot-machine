@@ -52,7 +52,6 @@ function flipPic() {
         msg.innerHTML = "insert money first to play💰💰💵💵!"
     }
 };
-
 let newColumn1 = document.getElementById('img0');
 let newColumn2 = document.getElementById('img1');
 let newColumn3 = document.getElementById('img2');
