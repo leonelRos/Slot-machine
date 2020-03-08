@@ -30,7 +30,6 @@ const msg = document.getElementById('msg')
 const insert = document.querySelector('.insert')
 const coin = document.querySelector('.coin')
 
-
 document.querySelector('.start').addEventListener('click', flipPic)
 insert.addEventListener('click', function(e){
     console.log(coin)
